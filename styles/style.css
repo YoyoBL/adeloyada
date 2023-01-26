@@ -1,0 +1,76 @@
+.nav-perso::first-letter {
+  color: #8cbf3f !important;
+  font-size: 2em;
+  margin: 0%;
+}
+
+.bg-gold {
+  background-color: #f2cc0f !important;
+}
+
+.bg-purple {
+  background-color: #9453a6 !important;
+}
+
+h2 > button.bg-purple:not(.collapsed) {
+  background-color: #8cbf3f !important;
+}
+h2 > button.bg-purple:focus {
+  border: #f2cc0f 5px solid;
+  box-shadow: none;
+}
+
+.accordion-focus:focus {
+  border: none;
+}
+
+.bg-green {
+  background-color: #8cbf3f !important;
+}
+
+.gold {
+  color: #f2cc0f !important;
+}
+
+.purple {
+  color: #9453a6 !important;
+}
+
+.green {
+  color: #8cbf3f !important;
+}
+
+main h2 {
+  color: #9453a6;
+}
+
+* {
+  line-height: 1.5rem;
+}
+*.first-gold::first-letter {
+  font-size: 3rem;
+  color: #f2cc0f;
+}
+*.first-green::first-letter {
+  font-size: 3rem;
+  color: #8cbf3f;
+}
+*.first-purple::first-letter {
+  font-size: 3rem;
+  color: #9453a6;
+}
+
+.media-images img {
+  height: inherit;
+  transition: all 0.1s ease-in;
+}
+.media-images img:hover {
+  transform: rotate(3deg) scale(1.2);
+}
+
+a.side-button:nth-of-type(2n + 1) {
+  background-color: #9453a6;
+}
+a.side-button:nth-of-type(2n) {
+  background-color: #f2cc0f;
+}/*# sourceMappingURL=style.css.map */

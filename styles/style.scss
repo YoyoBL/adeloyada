@@ -1,0 +1,87 @@
+$colorPurple: #9453a6;
+$colorGreen: #8cbf3f;
+$colorGold: #f2cc0f;
+
+.nav-perso::first-letter {
+   color: $colorGreen !important;
+   font-size: 2em;
+   margin: 0%;
+}
+
+.bg-gold {
+   background-color: $colorGold !important;
+}
+
+.bg-purple {
+   background-color: $colorPurple !important;
+}
+
+h2 > button.bg-purple {
+   &:not(.collapsed) {
+      background-color: $colorGreen !important;
+   }
+   &:focus {
+      border: $colorGold 5px solid;
+      box-shadow: none;
+   }
+}
+
+.accordion-focus:focus {
+   border: none;
+}
+
+.bg-green {
+   background-color: $colorGreen !important;
+}
+
+.gold {
+   color: $colorGold !important;
+}
+
+.purple {
+   color: $colorPurple !important;
+}
+
+.green {
+   color: $colorGreen !important;
+}
+
+main h2 {
+   color: #9453a6;
+}
+
+* {
+   line-height: 1.5rem;
+
+   &.first-gold::first-letter {
+      font-size: 3rem;
+      color: $colorGold;
+   }
+   &.first-green::first-letter {
+      font-size: 3rem;
+      color: #8cbf3f;
+   }
+   &.first-purple::first-letter {
+      font-size: 3rem;
+      color: #9453a6;
+   }
+}
+
+.media-images img {
+   height: inherit;
+   transition: all 0.1s ease-in;
+
+   &:hover {
+      transform: rotate(3deg) scale(1.2);
+   }
+}
+
+a.side-button {
+   &:nth-of-type(2n + 1) {
+      background-color: $colorPurple;
+   }
+
+   &:nth-of-type(2n) {
+      background-color: $colorGold;
+   }
+}
