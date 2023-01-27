@@ -77,25 +77,24 @@ a.side-button:nth-of-type(2n) {
 
 @-webkit-keyframes carousel {
   from {
-    top: 0;
+    bottom: 0;
   }
   to {
-    bottom: 0;
+    bottom: 100%;
   }
 }
 
 @keyframes carousel {
   from {
-    top: 0;
+    bottom: 0;
   }
   to {
-    bottom: 0;
+    bottom: 100%;
   }
 }
 .animation {
-  display: flex;
-  -webkit-animation-name: carousel;
-          animation-name: carousel;
-  -webkit-animation-duration: 5s;
-          animation-duration: 5s;
+  position: relative;
+  bottom: 100%;
+  -webkit-animation: carousel 5s;
+          animation: carousel 5s;
 }/*# sourceMappingURL=style.css.map */

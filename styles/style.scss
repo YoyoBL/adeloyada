@@ -85,3 +85,18 @@ a.side-button {
       background-color: $colorGold;
    }
 }
+
+@keyframes carousel {
+   from {
+      bottom: 0;
+   }
+   to {
+      bottom: 100%;
+   }
+}
+
+.animation {
+   position: relative;
+   bottom: 100%;
+   animation: carousel 5s;
+}
