@@ -95,6 +95,6 @@ a.side-button:nth-of-type(2n) {
 .animation {
   position: relative;
   bottom: 100%;
-  -webkit-animation: carousel 5s;
-          animation: carousel 5s;
+  -webkit-animation: carousel 20s;
+          animation: carousel 20s;
 }/*# sourceMappingURL=style.css.map */
