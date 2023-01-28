@@ -262,31 +262,33 @@
                      >
                         <div class="mb-3">
                            <label for="first-name" class="form-label"
-                              >שם פרטי</label
+                              >שם פרטי<span class="green">*</span></label
                            >
                            <input
                               type="text"
                               class="form-control"
                               id="first-name"
                               name="first-name"
+                              required
                            />
                         </div>
 
                         <div class="mb-3">
                            <label for="first-name" class="form-label"
-                              >שם משפחה</label
+                              >שם משפחה<span class="green">*</span></label
                            >
                            <input
                               type="text"
                               class="form-control"
                               id="first-name"
                               name="first-name"
+                              required
                            />
                         </div>
 
                         <div class="mb-3">
                            <label for="exampleInputEmail1" class="form-label"
-                              >מייל</label
+                              >מייל<span class="green">*</span></label
                            >
                            <input
                               type="email"
@@ -294,6 +296,7 @@
                               id="exampleInputEmail1"
                               aria-describedby="emailHelp"
                               name="email"
+                              required
                            />
                         </div>
                         <div class="mb-3">
@@ -306,9 +309,13 @@
                               rows="3"
                            ></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary">
+                        <button
+                           type="submit"
+                           class="d-inline btn bg-purple text-white"
+                        >
                            שלח
                         </button>
+                        <p class="d-inline me-3 green">*שדות חובה</p>
                      </form>
                   </div>
                </div>
